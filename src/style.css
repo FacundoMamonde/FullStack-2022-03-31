@@ -57,6 +57,11 @@ div #ejercicio {
   padding-bottom: 10px;
 }
 
+p a:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 3px black;
+}
+
 div #ejemplo {
   display: flex;
   flex-direction: column;
@@ -65,6 +70,10 @@ div #ejemplo {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: rgb(221, 221, 221);
+}
+
+a {
+  text-decoration: none;
 }
 
 /* ------ BOTON SIGUIENTE ------- */
@@ -118,11 +127,7 @@ footer p {
   cursor: pointer;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:hover {
+#ejemplo a:hover {
   background-color: red;
 }
 
@@ -163,11 +168,11 @@ a:hover {
   padding-left: 60px;
 }
 
-p3 span {
+#ejemplo-ejercicio3 p3 span {
   color: red;
 }
 
-li + li {
+#ejemplo-ejercicio3 li + li {
   color: blue;
 }
 
